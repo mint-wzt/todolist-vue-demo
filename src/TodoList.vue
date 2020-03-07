@@ -20,6 +20,7 @@
     import TodoItem from './components/TodoItem'
 
     export default {
+        name: 'TodoList',
         components: {
             'todo-item': TodoItem
         },

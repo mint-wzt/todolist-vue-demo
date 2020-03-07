@@ -1,8 +1,12 @@
 import Vue from 'vue'
-import TodoList from './TodoList'
+import App from './App'
+import router from './router'
+import store from './store'
 
 Vue.config.productionTip = false
 
 new Vue({
-    render: h => h(TodoList),
+    router,
+    store,
+    render: h => h(App)
 }).$mount('#app')
