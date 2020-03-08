@@ -29,6 +29,11 @@ const routes = [
         path: '/count',
         name: 'Count',
         component: Count
+    },
+    {
+        path: '/request',
+        name: 'http request',
+        component: () => import('../components/Axios.vue')
     }
 ]
 
